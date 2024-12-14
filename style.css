@@ -1,0 +1,124 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+.menu{
+    background-color: aquamarine;
+    display: flex;
+    padding: 10px;
+
+}
+
+.navigation{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    width: 50%;
+}
+
+.button{
+    background-color: bisque;
+    border: none;  
+    padding: 5px;
+    margin: 0px 5px;
+}
+
+.button:hover{
+    background-color: aquamarine;
+}
+
+.contact{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    width: 50%;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    height: 800px;
+}
+
+
+.leftpane{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 10%;
+    background-color: bisque;
+}
+
+.top{
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+}
+
+.top>div{
+    background-color: aquamarine;
+    margin: 5px 0px;
+    text-align: center;
+    
+}
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    justify-content: flex-end;
+}
+.refresh{
+    background-color: aquamarine;
+    margin: 5px 0px;
+    text-align: center;
+}
+
+.rightpane{
+    width: 70%;
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    
+    
+}
+
+.practicebox1{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    color: beige;
+    justify-content: center;
+    align-items: center;
+    border: solid black 1px;
+}
+.practicebox2{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    color: red;
+    justify-content: center;
+    align-items: center;
+    border: solid black 1px;
+}
+.practicebox3{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: greenyellow;
+    color: blue;
+    justify-content: center;
+    align-items: center;
+    border: solid black 1px;
+}
+
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: aqua;
+}
